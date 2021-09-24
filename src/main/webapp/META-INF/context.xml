@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+
+    <Resource url="jdbc:mysql://localhost/timeaccounting?autoReconnect=true"
+              password="1234" username="root"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              defaultTransactionIsolation="READ_COMMITTED"
+              defaultAutoCommit="false"
+              maxWaitMillis="10000"
+              maxIdle="30" maxTotal="100"
+              type="javax.sql.DataSource"
+              auth="Container"
+              name="jdbc/timeaccounting"/>
+
+    <ResourceLink name="jdbc/timeaccounting"
+                  global="jdbc/timeaccounting"
+                  type="javax.sql.DataSource"/>
+
+</Context>
