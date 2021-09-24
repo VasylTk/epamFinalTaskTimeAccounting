@@ -168,7 +168,7 @@ INSERT INTO activity VALUES(default, "change the color", 1);
 INSERT INTO activity VALUES(default, "add the button", 2);
 INSERT INTO activity VALUES(default, "add a radio button", 2);
 INSERT INTO activity VALUES(default, "add a new interface", 2);
-INSERT INTO activity VALUES(default, "add a slider", 2);\
+INSERT INTO activity VALUES(default, "add a slider", 2);
 INSERT INTO activity VALUES(default, "change the style of the app", 2);
 
 
