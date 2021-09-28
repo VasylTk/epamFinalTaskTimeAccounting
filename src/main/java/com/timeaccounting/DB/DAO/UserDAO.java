@@ -4,6 +4,11 @@ import com.timeaccounting.DB.Entity.Account;
 
 import java.util.List;
 
+/**
+ * Basic interface for all UserDAO.
+ *
+ * @author V. Tkachov
+ */
 public interface UserDAO {
 
     Account findUserByLogin(String login);

@@ -12,6 +12,10 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * User current activities command
+ * @author V. Tkachov
+ */
 public class UserCurrentActivitiesCommand extends Command {
 
     private static final Logger LOG = LogManager.getLogger(UserCurrentActivitiesCommand.class);

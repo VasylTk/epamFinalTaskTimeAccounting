@@ -2,6 +2,10 @@ package com.timeaccounting.DB.Entity;
 
 import java.io.Serializable;
 
+/**
+ * Account entity.
+ * Fields: id, userLogin, userPassword, userRole, userRoleName
+ */
 public class Account implements Serializable {
 
     private int id;

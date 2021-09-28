@@ -13,6 +13,10 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * ActivityCommand
+ * MySQL Database connection
+ */
 public class ActivityCommand extends Command {
 
     public static final Logger LOG = Logger.getLogger(ActivityCommand.class);

@@ -12,6 +12,10 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * User set time command
+ * @author V. Tkachov
+ */
 public class UserSetTimeCommand extends Command {
 
     private static final Logger LOG = LogManager.getLogger(UserSetTimeCommand.class);

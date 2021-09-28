@@ -4,6 +4,10 @@ import java.sql.*;
 import javax.naming.*;
 import javax.sql.DataSource;
 
+/**
+ * DBManager
+ * MySQL Database connection
+ */
 public class DBManager {
 
     private static DBManager instance;

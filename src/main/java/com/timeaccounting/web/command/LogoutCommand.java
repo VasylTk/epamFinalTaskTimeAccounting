@@ -6,6 +6,10 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
+/**
+ * Logout command
+ * @author V. Tkachov
+ */
 public class LogoutCommand extends Command {
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
@@ -13,7 +17,6 @@ public class LogoutCommand extends Command {
         if (session != null) {
             session.invalidate();
         }
-        //retunrn request.getRequestDispatcher("login.jsp").forward(request, response);
         return "/WEB-INF/jsp/login.jsp";
     }
 }

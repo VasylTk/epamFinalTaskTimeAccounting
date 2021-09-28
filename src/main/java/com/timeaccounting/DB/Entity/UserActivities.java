@@ -1,9 +1,12 @@
 package com.timeaccounting.DB.Entity;
 
 import java.io.Serializable;
-import java.sql.Time;
-import java.util.Date;
 
+/**
+ * UserActivities entity.
+ * Fields: id, userId, activityId, userLogin, activityName,
+ * activityCount, activityCount, spentTime, state, onDelete
+ */
 public class UserActivities implements Serializable {
 
     private int id;

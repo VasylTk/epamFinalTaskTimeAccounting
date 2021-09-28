@@ -4,6 +4,11 @@ import com.timeaccounting.DB.Entity.UserActivities;
 
 import java.util.List;
 
+/**
+ * Basic interface for all UserActivitiesDAO.
+ *
+ * @author V. Tkachov
+ */
 public interface UserActivitiesDAO {
 
     List<UserActivities> getAllUserActivities();

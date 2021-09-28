@@ -14,6 +14,10 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * User command
+ * @author V. Tkachov
+ */
 public class UserCommand extends Command {
 
     private static final Logger LOG = LogManager.getLogger(UserCommand.class);

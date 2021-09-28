@@ -15,6 +15,10 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Pin activity command
+ * @author V. Tkachov
+ */
 public class PinActivityCommand extends Command {
 
     public static final Logger LOG = Logger.getLogger(PinActivityCommand.class);

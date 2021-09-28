@@ -13,6 +13,10 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Activity report command
+ * @author V. Tkachov
+ */
 public class ActivityReportCommand extends Command {
 
     public static final Logger LOG = Logger.getLogger(ActivityReportCommand.class);

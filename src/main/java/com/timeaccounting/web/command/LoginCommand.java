@@ -13,7 +13,10 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
-
+/**
+ * Login command
+ * @author V. Tkachov
+ */
 @WebServlet(name = "LoginCommand")
 public class LoginCommand extends Command {
 

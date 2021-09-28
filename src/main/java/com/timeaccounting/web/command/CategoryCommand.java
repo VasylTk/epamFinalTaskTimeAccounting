@@ -12,6 +12,10 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Category command
+ * @author V. Tkachov
+ */
 @WebServlet(name = "CategoryCommand")
 public class CategoryCommand extends Command {
 

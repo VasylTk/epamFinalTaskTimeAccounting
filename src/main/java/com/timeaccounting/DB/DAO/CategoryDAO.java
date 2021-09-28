@@ -4,6 +4,11 @@ import com.timeaccounting.DB.Entity.Category;
 
 import java.util.List;
 
+/**
+ * Basic interface for all CategoryDAO.
+ *
+ * @author V. Tkachov
+ */
 public interface CategoryDAO {
 
     List<Category> getAllCategories();

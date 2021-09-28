@@ -11,6 +11,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Users report command
+ * @author V. Tkachov
+ */
 public class UsersReportCommand extends Command {
 
     private static final Logger LOG = LogManager.getLogger(UsersReportCommand.class);

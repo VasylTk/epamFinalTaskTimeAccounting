@@ -2,6 +2,10 @@ package com.timeaccounting.DB.Entity;
 
 import java.io.Serializable;
 
+/**
+ * Category entity.
+ * Fields: id, categoryName, idParent
+ */
 public class Category implements Serializable {
 
     private int id;

@@ -4,6 +4,11 @@ import com.timeaccounting.DB.Entity.Activity;
 
 import java.util.List;
 
+/**
+ * Basic interface for all ActivityDAO.
+ *
+ * @author V. Tkachov
+ */
 public interface ActivityDAO {
 
     List<Activity> getAllActivities();
@@ -27,15 +32,7 @@ public interface ActivityDAO {
 
     List<Activity> getAllSortCategories(String sortingMethod, String idCategory);
 
-    List<Activity> getAllSortCategoriesASC();
-
-    List<Activity> getAllSortCategoriesDESC();
-
     List<Activity> getAllSortUserCount(String sortingMethod, String idCategory);
-
-    List<Activity> getAllSortUserCountASC();
-
-    List<Activity> getAllSortUserCountDESC();
 
     List<Activity> getAllFilterCategory(int idCategory);
 

@@ -11,6 +11,11 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.HashSet;
 
+
+/**
+ * Authorization filter
+ * @author V. Tkachov
+ */
 public class AuthorizationFilter implements Filter {
 
     private static final Logger LOG = LogManager.getLogger(AuthorizationFilter.class);

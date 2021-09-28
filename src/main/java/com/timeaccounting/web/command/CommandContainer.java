@@ -5,6 +5,9 @@ import org.apache.log4j.Logger;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Storage all commands
+ */
 public class CommandContainer {
 
     public static final Logger LOG = Logger.getLogger(CommandContainer.class);
@@ -12,6 +15,7 @@ public class CommandContainer {
     private static Map<String, Command> commands = new HashMap<>();
 
     static {
+        // common commands
         commands.put("loginCommand", new LoginCommand());
         commands.put("categoryCommand", new CategoryCommand());
         commands.put("activityCommand", new ActivityCommand());
@@ -27,6 +31,11 @@ public class CommandContainer {
         commands.put("noCommand", new NoCommand());
     }
 
+    /**
+     * Returns command object with the given name.
+     * @param commandName Name of the command.
+     * @return Command object.
+     */
     public static Command get(String commandName) {
         if (commandName == null || !commands.containsKey(commandName)) {
             LOG.trace("Command not found, name --> " + commandName);
@@ -35,6 +44,11 @@ public class CommandContainer {
         return commands.get(commandName);
     }
 
+    /**
+     * Returns Boolean if object exist.
+     * @param commandName Name of the command.
+     * @return Boolean.
+     */
     public static Boolean getAllCommands(String commandName) {
         if (commandName == null || !commands.containsKey(commandName)) {
             return false;

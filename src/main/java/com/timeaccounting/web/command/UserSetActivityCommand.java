@@ -13,6 +13,10 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * User set activity command
+ * @author V. Tkachov
+ */
 public class UserSetActivityCommand extends Command {
 
     private static final Logger LOG = LogManager.getLogger(UserSetActivityCommand.class);

@@ -12,6 +12,10 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * User delete activity command
+ * @author V. Tkachov
+ */
 public class UserDeleteActivityCommand extends Command {
     private static final Logger LOG = LogManager.getLogger(UserDeleteActivityCommand.class);
 
